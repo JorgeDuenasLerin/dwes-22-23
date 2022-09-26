@@ -1,6 +1,6 @@
 # Ejercicios UT02
 
-## Ejercicio cadenas
+## Ejercicio cadenas 01
 
 Crea una página web con un formulario que envía los datos por get. El formulario permitirá al usuario introducir una cadena de texto y tendrá un botón enviar.
 
