@@ -16,3 +16,7 @@ Bonus CSS
 - la página tendrá un color de fondo.
 - el formulario tendrá borde y estará centrado dentro de la página.
 - Cuando se vea desde un móvil o tablet la página será responsive y ocupará todo el ancho.
+
+## Ejercicio cadenas 02
+
+Crea un paǵina web con un formulario que envíe...
