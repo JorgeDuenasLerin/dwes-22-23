@@ -19,4 +19,40 @@ Bonus CSS
 
 ## Ejercicio cadenas 02
 
-Crea un paǵina web con un formulario que envíe...
+Crea un formulario para generar una carta de presentación y que se envíe por get.
+
+El formulario pedirá:
+- Nombre completo
+- Empresa (a enviar la carta)
+- Fecha
+- Botón enviar
+
+Al pulsar el botón enviar se enviará la información a otra página.
+
+Esta página usará la librería ```http://www.fpdf.org/``` Para generar una carta de presentación con un texto (Puedes buscar el texto en Internet).
+
+El objetivo es utlizar las distintas concatenaciones de cadenas.
+
+- Cadenas con comillas simples
+- Cadenas con comillas dobles
+- Cadenas dentro de cadenas
+- Cadenas con variables dentro
+- Cadenas concatenadas con cadenas y/o variables
+
+## Ejercicio arrays 03
+
+Teniendo un array como el siguiente realizar una página php para pintar el horario dentro de una tabla.
+
+```
+$horario = [
+    0 => ["DWES", ....]
+    1 => ["DWES", ...]
+    "dias" => ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"]
+]
+```
+
+## Ejercicio sobre funciones de arrays 04
+
+Visita la página de funciones de array en php. Busca varias funciones y genera un enunciado en el que las tengas que usar.
+
+
