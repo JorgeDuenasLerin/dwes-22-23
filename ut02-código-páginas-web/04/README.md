@@ -1,41 +1,55 @@
-1 Jorge (Profe)
+# 1 Jorge (Profe)
+
+## Ejercicio 1
 Funciones: array_walk, array_map, array_filter, array_reduce
 
+```
 $personas = [
     ["Jorge", 1],
     ["Bea", 0],
     ["Paco", 1],
     ["Amparo", 0],
 ];
+```
 
 Utiliza alguna de las funciones para generar un array de cadenas indicando el nombre de la persona y cómo tratarle con formalidad. Si el valor entero detrás del nombre es un 1 Hay que poner "Señor <nombre>", si es 0 hay que poner "Señora <nombre>"
 
+```
 $resultado = ["Señor Jorge", "Señora Bea", "Señor Paco", "Señora Amparo"];
+```
 
---
+## Ejercicio 2
 
+```
 $comida = [
 	     0 => ["Banana", 3, 56],
 		1 => ["Chuleta", 1, 256]
 		2 => ["Pan", 1, 90]
     ]
-    
+```
+
 Utiliza la función map_reduce para calcular la cantidad de calorías de la comida anterior.
 
---
+## Ejercicio 3
 
 Con el array de personas anterior, utiliza el array_filter para sacar un listado de Hombre y otro listado de mujeres.
 
 
 
 
-2 Javi ඞ, Anabel ඞ y Román ඞ🔪
+# 2 Javi ඞ, Anabel ඞ y Román ඞ🔪
+
 Funciones:  array_intersect, array_search y array_replace.
-Enunciado: Designa dos arrays con varios números. Algunos de ellos deberán coincidir entre ambas arrays. A continuación:
-	* Crea un tercer array que contenga los números en común de los primeros dos. Habrá posiciones nulas.
-	* Crea un cuarto array con las posiciones que le falten al anterior y un número asignado a cada una, y júntalo con el anterior.
-	* Buca el índice de un valor en el array final (por ejemplo el del valor 13)
-	* Finalmente, imprime todos los arrays que has generado para ver los cambios.
+
+Enunciado: Designa dos arrays con varios números. Algunos de ellos deberán coincidir entre ambas arrays.
+
+A continuación:
+ - Crea un tercer array que contenga los números en común de los primeros dos. Habrá posiciones nulas.
+ - Crea un cuarto array con las posiciones que le falten al anterior y un número asignado a cada una, y júntalo con el anterior.
+ - Busca el índice de un valor en el array final (por ejemplo el del valor 13)
+ - Finalmente, imprime todos los arrays que has generado para ver los cambios.
+
+```
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣶⣿⣿⣷⣶⣄⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣾⣿⣿⡿⢿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⡟⠁⣰⣿⣿⣿⡿⠿⠻⠿⣿⣿⣿⣿⣧⠀⠀⠀⠀
@@ -53,14 +67,35 @@ Enunciado: Designa dos arrays con varios números. Algunos de ellos deberán coi
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⢿⣿⣿⣿⣿⣿⣿⠿⠋⠉⠛⠋⠉⠉⠁⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠁sus :0 amogus
 gugel crum version powered by VSNote© kekw :v
-
+```
 
  
-3 Xing , Marcos
-Funciones: array_replace, array_walk_recursive.
-Enunciado: Crear una array bidimesional que guarda nombre de usuario y contraseña de usuario
-1._ con array_walk_recursive ejecuta una funcion predefinida mostrando nombre de usuario y contraseña 
-*2._ hacer cambio de contraseña usando array_replace.
+# 3 Xing , Marcos (Revisado)
+
+Utiliza la función ```print_r()``` para ver la evolución de cada array.
+
+Funciones: array_walk, array_map, array_replace
+
+Extra: https://www.php.net/manual/es/function.password-hash.php
+
+```
+$usuarios = [
+	"jorge" => "1234",
+	"amparo" => "admin",
+	"mary" = > "",
+]
+```
+
+Enunciado: Crea una array bidimesional que guarda nombre de usuario y contraseña de usuario en texto claro. array_walk ejecuta una funcion predefinida mostrando nombre de usuario y contraseña 
+
+Enunciado: Utilizando las funciones de contraseñas y la función array_map. Genera un array nuevo con los usuarios y su contraseña en formato hash.
+
+Enunciado: En base al ejercicio anterior cambia la función para que los usuarios sin contraseña tenga la contraseña "tmp2022"
+
+Enunciado: Haz un filtrado de usuarios sin contraseña, utiliza array_replace para establecer en el array original ```$usuarios```la contraseña de los usuarios que no tenían.
+
+
+
  
 
 4 Arturo Fernández
