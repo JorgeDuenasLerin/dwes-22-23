@@ -94,12 +94,11 @@ Enunciado: En base al ejercicio anterior cambia la función para que los usuario
 
 Enunciado: Haz un filtrado de usuarios sin contraseña, utiliza array_replace para establecer en el array original ```$usuarios```la contraseña de los usuarios que no tenían.
 
-
-
- 
-
 # 4 Arturo Fernández
+
 Funcion array_merge
+
+```php
 <?php
 /*Dados estos arrays consigue que el resultado sea rojo, verde, naranja, azul usando la funcion array_merge*/
 $a1=array("a"=>"rojo");
@@ -108,10 +107,13 @@ $a3=array("d"=>"verde""f"=>"naranja");
 $a4=array("i"=>"azul");
 $a5=array("g"=>"azul", "h"=>"blanco");
 ?>
-
+```
 
 # 5. Mario, Jason, Daniel 
+
 Con el siguiente array de productos, crea una lista de la compra en la que puedas seleccionar la cantidad de productos que quieres adquirir y te muestre el precio total por producto y el total de la factura:
+
+```php
 $productos = [
         "naranja" => 1.2,
         "manzana" => 1.5,
@@ -127,6 +129,8 @@ $productos = [
         "pizza_jamon_serrano" => 2.59,
         "helado_chocolate" => 2.99
     ];
+```
+
 Funciones: array_sum (opcional => array_push)
 	* array_sum:
 		ej: array_sum(array $array): int|float
@@ -141,33 +145,41 @@ Crea un array con 20 números aleatorios. A continuación, ordénalo, quítale l
 
 Tienes que usar las siguientes funciones 
 
+```php
 array_slice — Extract a slice of the array
 array_push — Push one or more elements onto the end of array
 sort — Sorts array in place by values in ascending order.4
 rand — Generate a random integer
-
+```
 
 # 7. Nacho.
+
 Función: array_rand
+```php
 array_rand(array $array, int $num = 1): mixed
 array: El array de entrada.
 num: Especifica cuántas entradas deberían seleccionarse.
+```
+
 Dados dos arrays unidimensionales, uno de tareas[] y otro de personas[], asigna de manera aleatoria una tarea a cada persona.
 Si ya le echas valor, crea un arraybidimensional de tareas_diarias[dia][tarea] y haz un organigrama donde asignes tareas a cada persona durante la semana
 
-
 # 8. Doryan - Nataly - Antonio
 Funciones (array_merge, array_replace_recursive, in_array)
--Array_merge() enunciado:
-Tenemos que guardar los datos de 4 arrays de personas(cada persona es $personaN)
- los datos de cada persona son: nombre,apellido,telefono y correo.
+- Array_merge() enunciado:
+Tenemos que guardar los datos de 4 arrays de personas(cada persona es $personaN) los datos de cada persona son: nombre,apellido,telefono y correo.
 Junta todos los array de personas en uno llamado $personas e imprimelos en una tabla.
 
 - Array_replace_recursive: 
-$personas=[ "25","22 ","24 ","29 ", "26","23","20","19","26","19","20","23"];
+```php
+	$personas=[ "25","22 ","24 ","29 ", "26","23","20","19","26","19","20","23"];
+```
 Con el array dado remplaza las edades menores de 23 por un array de colores cada vez que sea asi.
 hUna vez cambiado los que tengan 26 años se cambiaran por otro array:
+
+```php
 $p26=["mayor","26"]
+```
 
 - Array_splice:
 hacer una clase con el numero de clase y la zona. Luego en el medio del array coloca el numero de identificacion de 10 niños en una tabla.
