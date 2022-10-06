@@ -133,11 +133,15 @@ $productos = [
 
 Funciones: array_sum (opcional => array_push)
  - array_sum:
- ```php ej: array_sum(array $array): int|float
-	devuelve la suma de los valores de un array.```
+```php 
+	ej: array_sum(array $array): int|float
+	devuelve la suma de los valores de un array.
+```
  -array_push:
- ```php ej: array_push(array &$array, mixed ...$values): int
-	añade un elemento a la última posición del array```
+```php
+	ej: array_push(array &$array, mixed ...$values): int
+	añade un elemento a la última posición del array
+```
 
 # 6. Alex y Dani 
 
