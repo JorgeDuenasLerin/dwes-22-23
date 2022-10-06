@@ -131,18 +131,35 @@ $productos = [
     ];
 ```
 
+Genera una página para que el usuario introduzca qué productos quiere comprar en un textarea. El usuario los introducirá juntos, separados por comas y todos los productos que quiere comprar estarán en el array de producto.
+
+```
+FORM
+	Productos:
+	<
+		platano,arroz
+	>
+	Enviar
+```
+
+Al dar enviar aparecerá el total de la factura: 1.55
+	
+
 Funciones: array_sum (opcional => array_push)
  - array_sum:
 ```php 
 	ej: array_sum(array $array): int|float
 	devuelve la suma de los valores de un array.
 ```
- -array_push:
+ - array_push:
 ```php
 	ej: array_push(array &$array, mixed ...$values): int
 	añade un elemento a la última posición del array
 ```
+ - array_keys
+ - explode
 
+	
 # 6. Alex y Dani 
 
 Crea un array con 20 números aleatorios. A continuación, ordénalo, quítale la primera mitad de los números y pónselos al final. Muestra todos los pasos por pantalla.
