@@ -223,3 +223,53 @@ $frase="Mateo, Marcos, Lucas, Pedro, Max, Philip, Lucer, Robert, Maximiliano, Ro
 # 10 Franco
 Función: array_filter
 En una lista de digitos del 1 al 20, filtrar y mostrar las posiciones de los números pares e impares.
+
+
+# Bonus
+
+Utiliza las funciones password_hash y password_verify para romper esta clave hash ```$2y$10$0GNiidCkeO/VBBHPH0DP6e5tgz6l/FIOxs1RcFloJrXuTYmmAsW72```.
+
+Pista: solo se han utilizado letras minúsculas de la 'a' a 'z' y tiene un longitud de 4 caracteres
+
+```
+set_time_limit(0); // Si no php para a los 30 segundos
+hash = '$2y$10$0GNiidCkeO/VBBHPH0DP6e5tgz6l/FIOxs1RcFloJrXuTYmmAsW72';
+```
+
+## BonusBonus
+
+Para hacelerar el proceso podemos dividir la exploración de las posibilidades.
+
+```
+página1
+a - aaa
+m - zzz
+
+página1
+n - aaa
+z - zzz
+``` 
+
+Para no escribir dos veces el mismo código podemos utilizar las variables de ```url``` para construir una url así:
+
+```html
+bruteforce.php?inicio=a&final=m
+```
+
+Ahora tienes dos opciones, crear un página ```mainbruteforce.php``` con varios enlaces y visitarlos en pestañas nuevas.
+
+```html
+<a href="bruteforce.php?inicio=a&final=m">
+<a href="bruteforce.php?inicio=n&final=z">
+```
+
+O crear una página ```mainbruteforce_iframe.php``` que genere un ifram por cada subtarea.
+
+```html
+<iframe src="bruteforce.php?inicio=a&final=m">
+<iframe src="bruteforce.php?inicio=n&final=z">
+```
+
+Si aún quieres explorar más esta práctica, haz que la página maestra (la que genera los enlaces o los iframes) tenga un parámetro indicando el número de divisiones que quieres hacer del espacio de claves.
+
+NOTA: Para hacer esto en un proyecto real se utilizaría otra tecnología multiproceso o multi hilo.
