@@ -98,7 +98,7 @@ Enunciado: Haz un filtrado de usuarios sin contraseña, utiliza array_replace pa
 
  
 
-4 Arturo Fernández
+# 4 Arturo Fernández
 Funcion array_merge
 <?php
 /*Dados estos arrays consigue que el resultado sea rojo, verde, naranja, azul usando la funcion array_merge*/
@@ -110,7 +110,7 @@ $a5=array("g"=>"azul", "h"=>"blanco");
 ?>
 
 
-5. Mario, Jason, Daniel 
+# 5. Mario, Jason, Daniel 
 Con el siguiente array de productos, crea una lista de la compra en la que puedas seleccionar la cantidad de productos que quieres adquirir y te muestre el precio total por producto y el total de la factura:
 $productos = [
         "naranja" => 1.2,
@@ -135,7 +135,7 @@ Funciones: array_sum (opcional => array_push)
 		ej: array_push(array &$array, mixed ...$values): int
 		añade un elemento a la última posición del array
 
-6. Alex y Dani 
+# 6. Alex y Dani 
 
 Crea un array con 20 números aleatorios. A continuación, ordénalo, quítale la primera mitad de los números y pónselos al final. Muestra todos los pasos por pantalla.
 
@@ -147,7 +147,7 @@ sort — Sorts array in place by values in ascending order.4
 rand — Generate a random integer
 
 
-7. Nacho.
+# 7. Nacho.
 Función: array_rand
 array_rand(array $array, int $num = 1): mixed
 array: El array de entrada.
@@ -156,7 +156,7 @@ Dados dos arrays unidimensionales, uno de tareas[] y otro de personas[], asigna 
 Si ya le echas valor, crea un arraybidimensional de tareas_diarias[dia][tarea] y haz un organigrama donde asignes tareas a cada persona durante la semana
 
 
-8. Doryan - Nataly - Antonio
+# 8. Doryan - Nataly - Antonio
 Funciones (array_merge, array_replace_recursive, in_array)
 -Array_merge() enunciado:
 Tenemos que guardar los datos de 4 arrays de personas(cada persona es $personaN)
@@ -175,20 +175,18 @@ hacer una clase con el numero de clase y la zona. Luego en el medio del array co
 - in_array:
 Crea una función que reciba como 1º parámetro un array, como 2º parámetro un valor y como 3º parámetro un mensaje de error. La función debe usar la función in_array para comprobar si el array contiene el valor especificado y si es el caso devolver la posición del array en el que tiene el valor, de lo contrario debe devolver el mensaje de error especificado (incluído si el array está vacío).
 
-9. Fausto Obama - Sergio - Henry:
+# 9. Fausto Obama - Sergio - Henry:
     
-Funciones: 
-    - in_array: Permite verificar si una cadena concreta se encuentra en la matriz pasada como parámetro junto
-al valor a buscar. Devuelve un dato de tipo Boolean.
-    Estructura: << in_array(mixed $needle, array $haystack, bool $strict = false): bool >>
-   
-   - explode: Permite pasar una cadena o texto a una matriz según el delimitador que definamos. Devuelve un array.
-    Estructura: << explode(string $separator, string $string, int $limit = PHP_INT_MAX): array >>
-       
-  - array_unique: Esta función permite revisar valores duplicados de una matriz y eliminarlos. Devuelve un array  con valores únicos.
-   Estructura: array_unique(array $array, int $flags = SORT_STRING): array
+## Funciones: 
 
-Enunciados:
+ - in_array: Permite verificar si una cadena concreta se encuentra en la matriz pasada como parámetro junto al valor a buscar. Devuelve un dato de tipo Boolean.
+   ```php Estructura: << in_array(mixed $needle, array $haystack, bool $strict = false): bool >>```
+ - explode: Permite pasar una cadena o texto a una matriz según el delimitador que definamos. Devuelve un array.
+   ```php Estructura: << explode(string $separator, string $string, int $limit = PHP_INT_MAX): array >>```
+ - array_unique: Esta función permite revisar valores duplicados de una matriz y eliminarlos. Devuelve un array  con valores únicos.
+   ```php Estructura: array_unique(array $array, int $flags = SORT_STRING): array```
+
+## Enunciados:
     
 a) Dado un texto o párrafo concreto:
     
@@ -206,6 +204,6 @@ $frase="Mateo, Marcos, Lucas, Pedro, Max, Philip, Lucer, Robert, Maximiliano, Ro
 
 * Eliminar los valores duplicados que puedan existir en la cadena y mostrar la cadena original y sin duplicados.
 
-  10 Franco
-Array_filter
+# 10 Franco
+Función: array_filter
 En una lista de digitos del 1 al 20, filtrar y mostrar las posiciones de los números pares e impares.
