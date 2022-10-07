@@ -234,9 +234,6 @@ hUna vez cambiado los que tengan 26 años se cambiaran por otro array:
 $p26=["mayor","26"]
 ```
 
-- Array_splice:
-hacer una clase con el numero de clase y la zona. Luego en el medio del array coloca el numero de identificacion de 10 niños en una tabla.
-
 - in_array:
 Crea una función que reciba como 1º parámetro un array, como 2º parámetro un valor y como 3º parámetro un mensaje de error. La función debe usar la función in_array para comprobar si el array contiene el valor especificado y si es el caso devolver la posición del array en el que tiene el valor, de lo contrario debe devolver el mensaje de error especificado (incluído si el array está vacío).
 
