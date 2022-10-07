@@ -31,15 +31,23 @@ $comprando = false;
 if(count($_GET)>0) {
     $comprando = true;
 
+    echo "<br>GET: ";
+    print_r($_GET);
+
     // Solo los que tengan un número positivo
-    $comprados = array_filter($_GET, function ($v) {return $v > 0; } );
+    $cantidad = array_filter($_GET, function ($v) {return $v > 0; } );
+    echo "<br>Cantidad: ";
+    print_r($cantidad);
 
     // Selecciona de la lista de productos los comprados
-    $cantidad = array_intersect_key($comprados, $productos);
-    $precios = array_intersect_key($productos, $comprados);
+    $precios = array_intersect_key($productos, $cantidad);
+    echo "<br>Obtén precios: ";
+    print_r($precios);
 
     // Similar a ZIP: packs de <nombre>, <cantidad>, <precio>
     $factura = array_map(null, array_keys($cantidad), $cantidad, $precios);
+    echo "<br>Cremallera: ";
+    print_r($factura);
 }
 
 
