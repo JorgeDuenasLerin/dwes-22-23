@@ -50,8 +50,8 @@ PRUEBAS:
 Escribe una web que llame a la función 3 veces con cadenas.
 
 ```
-echo concatena(" ", "Hola", "mundo", "!");
-echo concatena(".", "Esto", "son", "varias", "cadenas", "puntos");
+echo concatena(" ", "Hola", "mundo", "!"); // Hola mundo !
+echo concatena(".", "Esto", "son", "varias", "cadenas", "puntos"); //Esto.son.varias.cadenas.puntos
 ```
 
 08. [25 min]
