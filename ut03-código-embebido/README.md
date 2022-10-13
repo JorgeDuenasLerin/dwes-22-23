@@ -47,26 +47,31 @@ Escribe una web que llame a la función 10 veces con números aleatorios entre
 07. [15 min]
 Crea una función que concatene todas las cadenas pasadas como parámetro utilizando el primer parámetro como seprador.
 PRUEBAS:
-Escribe una web que llame a la función 10 veces con números aleatorios entre
-0 y 20.
+Escribe una web que llame a la función 3 veces con cadenas.
 
+```
 echo concatena(" ", "Hola", "mundo", "!");
 echo concatena(".", "Esto", "son", "puntos");
-
+```
 
 08. [25 min]
 Crea una función que genere un array asociativo que contenga información de los parámetros.
 La función irá descubriendo los tipos 
 
+```
 Funciones: gettype, array_key_exists o in_array o isset
+```
 
+```
 $analisis = analizParámetros(3, "h", 'hola', [1,2,3], [1], "h");
 print_r($analisis)
+```
 
 Imprime:
+```
 [
   'int' => 0,
   'string' => 3,
   'array' => 1
 ]
-
+```
