@@ -51,7 +51,7 @@ Escribe una web que llame a la función 3 veces con cadenas.
 
 ```
 echo concatena(" ", "Hola", "mundo", "!");
-echo concatena(".", "Esto", "son", "puntos");
+echo concatena(".", "Esto", "son", "varias", "cadenas", "puntos");
 ```
 
 08. [25 min]
