@@ -45,10 +45,13 @@ Escribe una web que llame a la función 10 veces con números aleatorios entre
 
 
 07. [15 min]
-Crea una función que sume todos los números pasados como parámetros.
+Crea una función que concatene todas las cadenas pasadas como parámetro utilizando el primer parámetro como seprador.
 PRUEBAS:
 Escribe una web que llame a la función 10 veces con números aleatorios entre
 0 y 20.
+
+echo concatena(" ", "Hola", "mundo", "!");
+echo concatena(".", "Esto", "son", "puntos");
 
 
 08. [25 min]
