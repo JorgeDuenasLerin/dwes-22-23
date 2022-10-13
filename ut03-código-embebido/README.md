@@ -70,8 +70,8 @@ print_r($analisis)
 Imprime:
 ```
 [
-  'int' => 0,
+  'int' => 1,
   'string' => 3,
-  'array' => 1
+  'array' => 2
 ]
 ```
