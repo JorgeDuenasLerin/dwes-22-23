@@ -108,7 +108,7 @@ aleatorio(5,50,-50)
 Crea una función que reciba un array con distintos tipos de valores de tal forma
 que:
 - Si son enteros: el primer entero sea elevado al cuadrado, el segundo entero sea elevado al cubo y así sucesivamente con los números enteros.
-- Si el valor es un float lo convertirá a su valor negativo (si es negativo al positivo)
+- Si el valor es un double lo convertirá a su valor negativo (si es negativo al positivo)
 - Si es una cadena cambiará las mayúsuclas por minúsculas y viceversa.
 - En caso de no estar entre estos valores lo dejará sin modificar.
 
