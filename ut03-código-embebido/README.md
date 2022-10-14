@@ -55,8 +55,8 @@ echo concatena(".", "Esto", "son", "varias", "cadenas", "puntos"); //Esto.son.va
 ```
 
 08. [25 min]
-Crea una función que genere un array asociativo que contenga información de los parámetros.
-La función irá descubriendo los tipos 
+Crea una función que genere un array asociativo que contenga información del tipo de los parámetros.
+La función irá descubriendo los tipos, comenzará con un array vacío. Cada vez que vea un tipo creará un clave con valor 1, si el tipo ya existía incrementará su valor en 1.
 
 ```
 Funciones: gettype, array_key_exists o in_array o isset
@@ -75,3 +75,25 @@ Imprime:
   'array' => 2
 ]
 ```
+
+
+
+09. [10 min]
+
+Crea una función que reciba dos variables cualesquiera e intercambie su valor. Las variables tendrá ese valor fuera de la función.
+PRUEBA:
+Crea una web en la que se muestre cómo se comporta esta función con variables
+de distinto tipo.
+
+
+10. [10 min]
+Crea una función que genera un array aleatorio con parámetros variables
+Por defecto generará 10 valores entre 0 y 10
+Puedes especificar el número de valores como primer parámetro,
+Puedes especificar el valor máximo como segundo parámetro
+o Puedes especificar número de valores, máximo y mínimo
+
+aleatorio(); // [n,n,n,n,n,n,n,n,n,n]
+aleatorio(5) // [n,n,n,n,n]
+aleatorio(5,50)
+aleatorio(5,50,-50)
