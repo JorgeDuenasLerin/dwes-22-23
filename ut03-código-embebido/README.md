@@ -89,10 +89,10 @@ de distinto tipo.
 10. [10 min]
 
 Crea una función que genera un array aleatorio con parámetros variables
-Por defecto generará 10 valores entre 0 y 10
-Puedes especificar el número de valores como primer parámetro,
-Puedes especificar el valor máximo como segundo parámetro
-o Puedes especificar número de valores, máximo y mínimo
+- Por defecto generará 10 valores entre 0 y 10
+- Puedes especificar el número de valores como primer parámetro,
+- Puedes especificar el valor máximo como segundo parámetro
+- o Puedes especificar número de valores, máximo y mínimo
 
 
 ```
