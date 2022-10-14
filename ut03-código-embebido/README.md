@@ -162,3 +162,7 @@ function genera_select(array $opciones, int seleccionada = -1)
 }
 ```
 
+
+## Objetos
+
+[Continua en otro README](README-Objetos.md)
