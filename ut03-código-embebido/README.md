@@ -87,13 +87,78 @@ de distinto tipo.
 
 
 10. [10 min]
+
 Crea una función que genera un array aleatorio con parámetros variables
 Por defecto generará 10 valores entre 0 y 10
 Puedes especificar el número de valores como primer parámetro,
 Puedes especificar el valor máximo como segundo parámetro
 o Puedes especificar número de valores, máximo y mínimo
 
+
+```
 aleatorio(); // [n,n,n,n,n,n,n,n,n,n]
 aleatorio(5) // [n,n,n,n,n]
 aleatorio(5,50)
 aleatorio(5,50,-50)
+```
+
+
+11. [30 min]
+
+Crea una función que reciba un array con distintos tipos de valores de tal forma
+que:
+- Si son enteros: el primer entero sea elevado al cuadrado, el segundo entero sea elevado al cubo y así sucesivamente con los números enteros.
+- Si el valor es un float lo convertirá a su valor negativo (si es negativo al positivo)
+- Si es una cadena cambiará las mayúsuclas por minúsculas y viceversa.
+- En caso de no estar entre estos valores lo dejará sin modificar.
+
+
+
+12. [25 min]
+
+Crea una función que reciba un array con información de un usuario y escriba un formulario relleno.
+En este caso solo utiliza campos de texto o enteros
+
+NOTA: Utiliza las funciones array_map o array_walk
+```
+Ejemplo
+$yo = [
+  "nombre" => "Jorge Dueñas Lerín",
+  "dirección" => "Calle falsa número 1234"
+  "teléfono" => "91 123 45 67",
+  "población" => "Madrid",
+  "edad" => 23,
+]
+```
+
+```
+format_form_user($yo);
+```
+
+Imprime:
+```
+<form id="datos personales" action="post">
+  <input name="nombre" value="Jorge Dueñas Lerín"></input>
+  ... etc.
+</form>
+```
+
+
+13. [15 min]
+
+Crea una función para escribir *select* de HTML, la función recibe un asociativo con el nombre y el value, también recibe el elemento seleccionado. como un entero
+
+```
+/*** 
+$opciones = [
+  "Madrid" => 28,
+  "Sevilla" => 17,
+  "Cáceres" => 56,
+]
+***/
+function genera_select(array $opciones, int seleccionada = -1)
+{
+  ...
+}
+```
+
