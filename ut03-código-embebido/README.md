@@ -6,7 +6,7 @@
   - Salida de HTML
 - Funciones
 - ¿Cómo estructurar un proyecto?
-- Objetos
+- [Objetos](README-Objetos.md)
 - Formularios
 
 ## Ejercicios de calentamiento
@@ -146,7 +146,7 @@ Imprime:
 
 13. [15 min]
 
-Crea una función para escribir *select* de HTML, la función recibe un asociativo con el nombre y el value, también recibe el elemento seleccionado. como un entero
+Crea una función para escribir *select* de HTML, la función recibe un asociativo con el nombre y el value, también recibe el elemento seleccionado. como un entero (que representa su value)
 
 ```
 /*** 
@@ -164,5 +164,6 @@ function genera_select(array $opciones, int seleccionada = -1)
 
 
 ## Objetos
-
+<hide>
 [Continua en otro README](README-Objetos.md)
+</hide>
