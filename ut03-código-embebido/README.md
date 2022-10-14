@@ -163,7 +163,8 @@ function genera_select(array $opciones, int seleccionada = -1)
 ```
 
 
+Continuará... nos quedan algunas cosas de funciones.
+
 ## Objetos
-<hide>
+
 [Continua en otro README](README-Objetos.md)
-</hide>
