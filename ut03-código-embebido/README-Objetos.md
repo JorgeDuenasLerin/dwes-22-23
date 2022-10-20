@@ -46,7 +46,7 @@ Métodos:
 - unirCon(CuentaBancaria):
     - La cuenta que recibe el mensaje coge el saldo de la que es pasada como parámetro
     - La cuenta que es pasada como parametro se queda con saldo 0 y numerocuenta -1. Indicando que ya no útil
-    - $cuentaA->unir($cuentaB)
+    - $cuentaA->unirCon($cuentaB)
 - bancarrota(): Asigna el saldo a cero
 - mostrar: muestra un div con la información en varios span. Utiliza clases css por si luego le quieres dar estilo
 
