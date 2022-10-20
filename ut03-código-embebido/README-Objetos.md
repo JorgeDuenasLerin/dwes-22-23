@@ -41,8 +41,9 @@ Métodos:
 - ingresar(float)
 - retirar(float)
 - saldo():float
-- transferir(CuentaBancaria, cantidad)
-- unir(CuentaBancaria):
+- transferirA(CuentaBancaria, cantidad):
+    - La cuenta que recibe el mensaje transfiere la cantidad a la otra cuenta
+- unirCon(CuentaBancaria):
     - La cuenta que recibe el mensaje coge el saldo de la que es pasada como parámetro
     - La cuenta que es pasada como parametro se queda con saldo 0 y numerocuenta -1. Indicando que ya no útil
     - $cuentaA->unir($cuentaB)
@@ -56,9 +57,10 @@ Crea una página con tres cuentas:
 - Agapito, saldo 30345
 - Pobretón, saldo -10000
 
-Haz que el Milloneti tenga 100 retiradas de 1000 euros
-Haz que Agapito tenga un ingreso de 1200 euros
-Muestra el saldo de las 3 cuentas. Solo el saldo.
-Pobretón ha hackeado el banco y ha conseguido unir la cuenta del Milloneti a la suya.
-Agapito es buena persona y decide transferir la mitad de su salario a Milloneti para que rehaga su vida.
-Muestra el detalle (método mostrar) de las 3 cuentas.
+Secuencia de acciones:
+- Haz que el Milloneti tenga 100 retiradas de 1000 euros
+- Haz que Agapito tenga un ingreso de 1200 euros
+- Muestra el saldo de las 3 cuentas. Solo el saldo.
+- Pobretón ha hackeado el banco y ha conseguido unir la cuenta del Milloneti a la suya.
+- Agapito es buena persona y decide transferir la mitad de su salario a Milloneti para que rehaga su vida.
+- Muestra el detalle (método mostrar) de las 3 cuentas.
