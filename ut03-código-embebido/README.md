@@ -162,8 +162,51 @@ function genera_select(array $opciones, int seleccionada = -1)
 }
 ```
 
+14. [25 min]
+Crea una función para imprimir array, también debe contemplar que los elementos
+pueden ser arrays. Deberá identar la salida acorde a la estructura de
+arrays
+Ejemplo:
 
-Continuará... nos quedan algunas cosas de funciones.
+```
+<?php
+$cosas = [
+    3,
+    "frutas"  => ["a" => "naranja", "b" => [1, 2], "c" => "manzana"],
+    "números" => [1, 2, 3, 4, 5, 6],
+    "hoyos"   => ["primero", 5 => "segundo", "tercero"],
+    "asd"
+];
+
+imprimeTabulado($cosas);
+/*
+3
+array
+____naranja
+____array
+________1
+________2
+____manzana
+array
+____1
+____2
+____3
+____4
+____5
+____6
+array
+____primero
+____segundo
+____tercero
+asd
+*/
+?>
+```
+
+15. [15 min]
+
+Crea una función recursiva que devuelva una cadena invertida.
+No puedes usar funciones de cadena
 
 ## Objetos
 
