@@ -129,7 +129,7 @@ Crea una página que:
 - Utiliza array_walk para pintar en un div cada uno de los Coches
 
 
-### 0X Usuarios deportivos
+### 04. Usuarios deportivos
 
 Para todos los ejercicios se debe describir la estructura de clases y
 definir sus métodos. Para no implementar la funcionalidad que representan
