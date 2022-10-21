@@ -27,7 +27,7 @@ Tendrá una constante privada para almacenar PI
 Necesitas definir el fichero con la clase por un lado y por otro la página que lo usa.
 
 
-###  Crea la clase CuentaBancaria
+### 02. Crea la clase CuentaBancaria
 
 Atributos:
 - numerocuenta
@@ -65,8 +65,32 @@ Secuencia de acciones:
 - Agapito es buena persona y decide transferir la mitad de su salario a Milloneti para que rehaga su vida.
 - Muestra el detalle (método mostrar) de las 3 cuentas.
 
+### 03. Coche y coche con remolque
 
-### Usuarios deportivos
+Crea una clase Coche.
+Tendrá atributos (privados):
+- matricula
+- marca
+- carga
+
+Métodos (públicos):
+- pintarInformación.
+	- Escribe: Coche: ```<matrícula>, <marca> con carga: <carga>```
+- getters y setters
+
+Crea una clase CocheConRemolque
+Tendrá atributo:
+- capacidad remolque
+
+Método (público):
+- getter y setter de capacidad remolque
+- Los mismos métodos. (Heredados)
+- pintarInformación.
+	- Escribe: ```Coche: <matrícula>, <marca> con carga: <carga> y remolque de <remolque>```
+
+
+
+### 0X Usuarios deportivos
 
 Para todos los ejercicios se debe describir la estructura de clases y
 definir sus métodos. Para no implementar la funcionalidad que representan
