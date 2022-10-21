@@ -128,7 +128,6 @@ Crea una página que:
     - OJO! No metas el Nissan, ya va en la grúa
 - Utiliza array_walk para pintar en un div cada uno de los Coches
 
-
 ### 04. Usuarios deportivos
 
 Para todos los ejercicios se debe describir la estructura de clases y
@@ -144,16 +143,15 @@ Junto con la definición de clases tendrá que haber una o varias páginas de te
 
 
 Estamos desarrollando una aplicación para organizar partidos de varios deportes.
-
-NOTA GENERAL: No es necesario crear la clase Partido
-NOTA GENERAL: No es necesario crear la clase Deporte
+- NOTA GENERAL: No es necesario crear la clase Partido
+- NOTA GENERAL: No es necesario crear la clase Deporte
 
 En nuestra aplicación tenemos usuarios que se deben representar por objetos de la clase Usuario. De estos usuarios se debe almacenar la información de: nombre, apellidos y deporte que practican. De estos usuarios se desea gestionar un nivel de juego, estos niveles irán desde el nivel 0 al nivel 6.
 
 También se desea almacenar el histórico de partidos, todos sus resultados.
 
 Todos los usuarios comenzarán en el nivel 0. Los niveles no se pueden modificar de forma directa. Cada vez que un jugador gane 6 partidos seguidos subirá de nivel, cuando el usuario pierda 6 partidos seguidos bajará.
-NOTA: Es 6 es una constante, no debe haber número mágicos en el código.
+- NOTA: Es 6 es una constante, no debe haber número mágicos en el código.
 
 Dentro de las operaciones que podremos realizar con estos usuarios tenemos:
 - introducirResultado: Aceptará como valores victoria, derrota o empate.
