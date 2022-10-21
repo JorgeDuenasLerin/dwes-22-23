@@ -45,7 +45,7 @@ Métodos:
     - La cuenta que recibe el mensaje transfiere la cantidad a la otra cuenta
 - unirCon(CuentaBancaria):
     - La cuenta que recibe el mensaje coge el saldo de la que es pasada como parámetro
-    - La cuenta que es pasada como parametro se queda con saldo 0 y numerocuenta -1. Indicando que ya no útil
+    - La cuenta que es pasada como parámetro se queda con saldo 0 y numerocuenta -1. Indicando que ya no útil
     - $cuentaA->unirCon($cuentaB)
 - bancarrota(): Asigna el saldo a cero
 - mostrar: muestra un div con la información en varios span. Utiliza clases css por si luego le quieres dar estilo
@@ -134,7 +134,7 @@ Crea una página que:
 Para todos los ejercicios se debe describir la estructura de clases y
 definir sus métodos. Para no implementar la funcionalidad que representan
 en este punto escribiremos la acción que estamos realizando. Por ejemplo:
-- Si estamos implementando el método pagar() en la plase PayPal al
+- Si estamos implementando el método pagar() en la clase PayPal al
    llamar a este método de un objeto PayPal se escribirá "Pago con PayPal"
 - Si estamos implementando el método disparar en la clase Rifle se escribirá
    "Disparo con rifle"
@@ -162,7 +162,7 @@ Dentro de las operaciones que podremos realizar con estos usuarios tenemos:
     - NOTA3: Quizá tengas que usar alguna constante.
 - imprimirInformación: Escribirá un elemento párrafo con la información del usuario. Para diferenciar este párrafo del resto de elementos escritos, el párrafo tendrá un color azul claro.
     - NOTA: Tendrás que usar css
-    - Dentro del párrafo aparecerá un ul con li y la información de susresultaso previos.
+    - Dentro del párrafo aparecerá un ul con li y la información de sus resultas previos.
 
 Para ganar dinero tenemos otro tipo de usuario: UsuarioPremium. Para estos usuarios solo hará falta ganar 3 partidos seguidos para subir nivel. Cuando se escriba información sobre este tipo de usuarios deberá aparecer junto al nombre entre paréntesis la palabra Premium (Premium)
 
