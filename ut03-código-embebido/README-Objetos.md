@@ -113,15 +113,20 @@ Crea una página que:
 - Cree un coche con matrícula 1000, marca BMV, carga 30
 - Cree un coche con remolque y matrícula 1001, marca Renault, carga 30 y carga remolque 200
 - Cree un coche con matrícula 1002, marca Porche, carga 40
-- Cree un coche-grúa con matrícula 1003, marca Renault, carga 20
-- Carga el porche en el coche-grúa
+- Cree un coche-grúa con matrícula 1003, marca Ford, carga 20
+- Carga el Porche en el coche-grúa
+- Crea otro coche con remolque: 1005, Nissan, 22, en el remolque 250
+- Crea otro coche grúa con matrícula 1007, Kia, carga 30
+- Carga el Nissan en la grúa
 - Crea un array
 - Mete en el array:
     - BMV
-    - Renault de matrícula 1001
-    - Y el coche grúa.
+    - Renault
+    - El coche grúa Ford
+    - El coche grúa Kia
     - OJO! No metas el Porche, ya va en la grúa.
-- Utiliza array_walk para pintar en un div cada uno de los vehículos
+    - OJO! No metas el Nissan, ya va en la grúa
+- Utiliza array_walk para pintar en un div cada uno de los Coches
 
 
 ### 0X Usuarios deportivos
