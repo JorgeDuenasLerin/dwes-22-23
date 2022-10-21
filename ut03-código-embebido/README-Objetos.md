@@ -79,7 +79,7 @@ Métodos (públicos):
 - getters y setters
 
 Crea una clase CocheConRemolque
-Tendrá atributo:
+Tendrá atributo (privado):
 - capacidad remolque
 
 Método (público):
@@ -88,6 +88,40 @@ Método (público):
 - pintarInformación.
 	- Escribe: ```Coche: <matrícula>, <marca> con carga: <carga> y remolque de <remolque>```
 
+
+Crea una clase CocheGrúa, que hereda de Coche 
+Atributo (privado):
+- cocheCargado
+
+Método (público):
+- cargar(Coche)
+- descargar()
+- pintarInformación.
+	- Escribe:
+```
+Coche: <matrícula>, <marca> con carga: <carga>.
+Lleva Coche: <matrícula>, <marca> con carga: <carga>
+```
+o
+```
+Coche: <matrícula>, <marca> con carga: <carga>.
+No lleva ningún coche.
+```
+
+Crea una página que:
+- Cree un array vacío.
+- Cree un coche con matrícula 1000, marca BMV, carga 30
+- Cree un coche con remolque y matrícula 1001, marca Renault, carga 30 y carga remolque 200
+- Cree un coche con matrícula 1002, marca Porche, carga 40
+- Cree un coche-grúa con matrícula 1003, marca Renault, carga 20
+- Carga el porche en el coche-grúa
+- Crea un array
+- Mete en el array:
+    - BMV
+    - Renault de matrícula 1001
+    - Y el coche grúa.
+    - OJO! No metas el Porche, ya va en la grúa.
+- Utiliza array_walk para pintar en un div cada uno de los vehículos
 
 
 ### 0X Usuarios deportivos
