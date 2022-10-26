@@ -2,9 +2,7 @@
 
 ## Singleton
 
-El patrón Singleton
-Es una patrón software para garantizar que solo existe un objeto instanciado
-de una clase en cualquier momento de la aplicación.
+El patrón Singleton: Es un patrón software para garantizar que solo existe un objeto instanciado de una clase en cualquier momento de la aplicación.
 
 Útil para:
 - Objetos de configuración que deben ser accesibles en todo el sistema
@@ -40,20 +38,19 @@ $user3 = Unico::singleton();
 ```
 
 ## Clases abstractas
-Son clases que tienen un método abstracto, al tener un método no definido
-no se pueden instanciar objetos de esta clase.
 
-Una clase que sea descendiente de esta, deberá definir el/los métodos
-abstractos o de lo contrario también será abstracta.
+Son clases que tienen un método abstracto, al tener un método no definido no se pueden instanciar objetos de esta clase.
+
+Una clase que sea descendiente de esta, deberá definir el/los métodos abstractos o de lo contrario también será abstracta.
 
 ```
 <?php
 
 abstract class Instrumento {
-    private $tipo;
+    private $peso;
 
-    public function setTipo($tipo) {
-        $this->tipo = $tipo;
+    public function setPeso(float $peso) {
+        $this->peso = $peso;
     }
 
     abstract public function tocar();
@@ -75,6 +72,7 @@ class Saxofon extends Instrumento {
 
 ?>
 ```
+
 
 ## Interfaces
 Las interfaces permiten especificar los métodos que debe implementar un
@@ -126,12 +124,9 @@ class Numero implements Ordenable
 
 ## Traits (Rasgos)
 
-Es una herramienta que permite reutilizar y agrupar código para tareas
-concretas y específicas.
+Es una herramienta que permite reutilizar y agrupar código para tareas concretas y específicas.
 
-Las funciones agrupadas se deben poder asociar a culaquier tipo de dato
-o deben estar autocontenidas (se puede añadir al objeto todas las
-propiedades y toda la funcionalidad).
+Las funciones agrupadas se deben poder asociar a culaquier tipo de dato o deben estar autocontenidas (se puede añadir al objeto todas las propiedades y toda la funcionalidad).
 
 Esta herrramienta añade funcionalidad de forma horizontal.
 
@@ -170,7 +165,7 @@ $o->otraCosa();
 
 ```
 <?php
-trait Imprimeble
+trait Imprimible
 {
     public function imprime()
     {
@@ -303,4 +298,20 @@ $on->medjaronUnTraitDeHerencia();
 ```
 
 
-Hacer ejercicio
+## Ejercicio completo
+
+Estás creando el juego de clases para un videojuego
+
+En el futuro esperas que otros jugadores-programadores creen  muchos tipos de personajes, así que decides crear un Intefaz personaje con los métosdos atacar y defender.
+
+Vas a implementar un personaje Humano que escribirá "puñetazo" cuando ataque y "bloqueo" cuando defiende.
+
+También vas a implemetnar un persnaje Mago. Todos los magos se dienden diciendo "hechizo protector" pero hay dos tipos de magos. Los personajes MagosBlancos que atacan escribiendo "ataque de luz", y los MagosOscuros que atacan escribiendo "ataque de sombra" (Mago es una clase abstracta)
+
+Dentro del juego también tendrás un clase Edificio, que tiene una altura y un método para escribir la altura.
+
+Dentro del juego también hay objetos que tienen un peso y una desrcipción.
+
+Tanto los personajes, los edificios y los objetos tienen una posición en el mapa: x y z. Estas posiciones tienen sus métodos getters y setters.
+
+Tanto los edificios como los objetos tienen una descripción y un método setter y getter para ella.
