@@ -51,3 +51,22 @@ Ahora modifica la página anterior para que de forma aleatoria se realice el pag
 
 NOTA: Debes utilizar Polimorfismo.
 
+
+## Ejercicio completo
+
+Estás creando el juego de clases para un videojuego
+
+En el futuro esperas que otros jugadores-programadores creen  muchos tipos de personajes, así que decides crear un Intefaz personaje con los métosdos atacar y defender.
+
+Vas a implementar un personaje Humano que escribirá "puñetazo" cuando ataque y "bloqueo" cuando defiende.
+
+También vas a implemetnar un persnaje Mago. Todos los magos se dienden diciendo "hechizo protector" pero hay dos tipos de magos. Los personajes MagosBlancos que atacan escribiendo "ataque de luz", y los MagosOscuros que atacan escribiendo "ataque de sombra" (Mago es una clase abstracta)
+
+Dentro del juego también tendrás un clase Edificio, que tiene una altura y un método para escribir la altura.
+
+Dentro del juego también hay objetos que tienen un peso y una desrcipción.
+
+Tanto los personajes, los edificios y los objetos tienen una posición en el mapa: x y z. Estas posiciones tienen sus métodos getters y setters.
+
+Tanto los edificios como los objetos tienen una descripción y un método setter y getter para ella.
+
