@@ -128,7 +128,7 @@ Es una herramienta que permite reutilizar y agrupar código para tareas concreta
 
 Las funciones agrupadas se deben poder asociar a culaquier tipo de dato o deben estar autocontenidas (se puede añadir al objeto todas las propiedades y toda la funcionalidad).
 
-Esta herrramienta añade funcionalidad de forma horizontal.
+Esta herramienta añade funcionalidad de forma horizontal.
 
 Ejemplos:
 

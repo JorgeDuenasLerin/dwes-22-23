@@ -6,7 +6,10 @@
   - Salida de HTML
 - Funciones
 - ¿Cómo estructurar un proyecto?
-- [Objetos](README-Objetos.md)
+- Objetos:
+  - [Objetos](Objetos.md)
+  - [Objetos Avanzados](Objetos-Avanzados.md)
+  - [Objetos Avanzados Ejercicios](Objetos-Avanzados-Ejercicios.md)
 - Formularios
 
 ## Ejercicios de calentamiento
@@ -207,7 +210,3 @@ asd
 
 Crea una función recursiva que devuelva una cadena invertida.
 No puedes usar funciones de cadena
-
-## Objetos
-
-[Continua en otro README](README-Objetos.md)
