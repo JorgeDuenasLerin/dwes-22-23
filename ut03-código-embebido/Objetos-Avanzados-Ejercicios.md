@@ -62,11 +62,10 @@ Vas a implementar un personaje Humano que escribirá "puñetazo" cuando ataque y
 
 También vas a implemetnar un persnaje Mago. Todos los magos se dienden diciendo "hechizo protector" pero hay dos tipos de magos. Los personajes MagosBlancos que atacan escribiendo "ataque de luz", y los MagosOscuros que atacan escribiendo "ataque de sombra" (Mago es una clase abstracta)
 
-Dentro del juego también tendrás un clase Edificio, que tiene una altura y un método para escribir la altura.
+Dentro del juego también tendrás una clase Edificio, que tiene una altura y un método para escribir la altura, una descripción y un método para obtener la descripción.
 
-Dentro del juego también hay objetos que tienen un peso y una desrcipción.
+Dentro del juego también hay Objetos que tienen un peso y un método para mostrar el peso, y una descripción y un método para obtener la descripción.
+
+Tanto los edificios como los objetos tienen una descripción y un método setter y getter para ella. ¡Podemos usar un trait!
 
 Tanto los personajes, los edificios y los objetos tienen una posición en el mapa: x y z. Estas posiciones tienen sus métodos getters y setters.
-
-Tanto los edificios como los objetos tienen una descripción y un método setter y getter para ella.
-
