@@ -24,7 +24,7 @@ Para todos los pagos debemos:
 Para poder en el futuro hacer que tu aplicación funcione con otras pasarelas de pago has decidido crear una Interfaz.
 
 ```
-interface PlataformaPago
+interface IPlataformaPago
 {
     public function estableceConexión():bool;
     public function compruebaSeguridad():bool;
@@ -51,12 +51,20 @@ Ahora modifica la página anterior para que de forma aleatoria se realice el pag
 
 NOTA: Debes utilizar Polimorfismo.
 
+```
+reazlizarTransaccion(IPlataformaDePago $p, string cuenta, int cantidad)
+{
+    $p->estableceConexión();
+    $p->compruebaSeguridad();
+    $p->pagar($cuenta, $cantidad);
+}
+```
 
 ## Ejercicio completo
 
 Estás creando el juego de clases para un videojuego
 
-En el futuro esperas que otros jugadores-programadores creen  muchos tipos de personajes, así que decides crear un Intefaz personaje con los métosdos atacar y defender.
+En el futuro esperas que otros jugadores-programadores creen  muchos tipos de personajes, así que decides crear un Intefaz personaje con los métodos atacar y defender.
 
 Vas a implementar un personaje Humano que escribirá "puñetazo" cuando ataque y "bloqueo" cuando defiende.
 
