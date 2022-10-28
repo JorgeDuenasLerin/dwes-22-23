@@ -133,6 +133,11 @@ echo $p->id . "    " $u->id;
 ?>
 ```
 
+### Ejemplo
+
+Francisco Javier Lasso
+[https://github.com/fJavierLasso/entornoServidor/tree/main/9%20-%20Objetos%20Avanzados%20-%20Abstract%20y%20Trait](https://github.com/fJavierLasso/entornoServidor/tree/main/9%20-%20Objetos%20Avanzados%20-%20Abstract%20y%20Trait)
+
 ## 6.- Pregunta abierta
 ¿Por qué no tiene un comportamiento por defecto?
 
