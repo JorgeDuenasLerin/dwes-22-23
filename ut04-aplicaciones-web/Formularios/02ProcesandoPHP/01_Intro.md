@@ -23,9 +23,7 @@ Lenguajes: Inglés, Español o Otro.
 NOTA: Intenta que sean lenguajes difíciles.
 
 
-
-
-Obteniendo información de la url. PETICIÓN GET
+# Obteniendo información de la url. PETICIÓN GET
 
 ¿Cómo saber si estoy recibiendo información de un formulario?
 1.- Escribe un formulario que envíe un dato con get
@@ -37,6 +35,7 @@ Obteniendo información de la url. PETICIÓN GET
 
 
 ¿Cómo saber si un dato ha sido enviado?
+
 Hay distintas formas en las que se comportan los distintos controles
 de un formulario. Para saber si nos están enviando datos o no, debemos
 preguntar por ellos con isset y comparándolo con los posibles valores.
@@ -52,7 +51,6 @@ NOTA: Siempre hacer un die o exit tras redirect.
 7.- Modifica el sistema para que aparezca un mensaje de error en rojo
 cuando no se ha enviado el dato
 
-
 ¿Cómo mantengo el valor entre peticiones?
 Ahora vamos a jugar con dos campos
 
@@ -60,6 +58,7 @@ Estructura general:
 
 NOTA IMPORTANTE: Si en los formularios de examen se pierden los valores cuando
 hay error se considerará como muy grave.
+
 ```
 <?php
 
@@ -74,12 +73,12 @@ if(isset($_GET['BOTÓN_ENVÍA'])) {
 <input type="text" name="variable_input" value="<?=$variableInput?>" />
 ```
 
-
-Obteniendo información de la entrada. PETICIÓN POST
+# Obteniendo información de la entrada. PETICIÓN POST
 
 Al procesar los datos del post tenemos la ventaja de que el tipo de
 petición cambia y podemos usarlo para saber si estamos recibiendo
 POST o GET
+
 ```
 $variableInput = "";
 
@@ -89,13 +88,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 //etc...
 ```
 
-SEGURIDAD:
-La primera preocupación es que las cosas funcionen... pero en el mundo
-de Internet eso no es suficiente. El código en producción que subamos debe ser
-seguro.
+# SEGURIDAD
+La primera preocupación es que las cosas funcionen... pero en el mundo de Internet eso no es suficiente. El código en producción que subamos debe ser seguro.
 
-EJEMPLO de XSS
-
+## EJEMPLO de XSS
 
 Es importante usar funciones de saneamiento:
 ```

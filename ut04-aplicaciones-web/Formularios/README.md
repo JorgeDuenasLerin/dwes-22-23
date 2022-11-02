@@ -51,3 +51,14 @@ página según avancemos en la asignatura veremos otras posibles configuraciones
 
 Por ejemplo, el proceso de autetificación a través de varios medios es muy
 complejo y lo mejor es centralizar el proceso en un punto.
+
+## Orden
+
+- Análisis del protocolo
+- Ejemplos de procesado de PHP
+- Práctica Guiada
+    - Dos tipo de valores
+    - Mostrar errores
+    - Guardar información en ficheros
+    - Sacar listado
+- Práctica mini proyecto
