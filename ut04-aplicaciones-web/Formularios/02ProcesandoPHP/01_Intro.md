@@ -1,4 +1,4 @@
-Las variables superglobales
+# Las variables superglobales
 
 http://php.net/manual/es/language.variables.superglobals.php
 
@@ -9,8 +9,20 @@ El tipo de estas variables son arrays.
 Haz una página que escriba el volcado de de la variable ```$_SERVER;``` en formato
 clave - valor <br />
 
+## 01 Dirección IP
+
 Haz una página que diga cuál es el sistema operativo del cliente y desde qué
 dirección ip lo está haciendo.
+
+## 02 Lenguaje
+
+Modifica el ejercicio anterior para que escriba mensajes de bienvenida dependiendo del lenguaje de Navegador del usuario.
+
+Lenguajes: Inglés, Español o Otro.
+
+NOTA: Intenta que sean lenguajes difíciles.
+
+
 
 
 Obteniendo información de la url. PETICIÓN GET
