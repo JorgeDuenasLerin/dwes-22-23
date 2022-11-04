@@ -102,3 +102,9 @@ function cleanData($data) {
   return $data;
 }
 ```
+
+# Validación
+
+http://php.net/manual/es/book.filter.php
+https://www.php.net/manual/es/filter.examples.php
+https://diego.com.es/expresiones-regulares-en-php

@@ -1,0 +1,25 @@
+Práctica
+============================================
+
+Con la base de datos que has restaurado y con la estructura de proyecto web
+crea una pequeña aplicación web en la que puedas ver un listado de una de
+las entidades y al lado de cada entidad tendrás un enlace a otra página que
+muestre el listado
+
+
+listado.php
+-> Consulta una tabla de la base de datos y genera una table listado.
+-> En cada fila tendrá un enlace a la página detalle.php con id pasado como parámetro
+
+
+detalle.php
+Espera recibir por GET una variable id con el identificador del elemento a listar
+Muestra tras una consulta el detalle de uno de los elementos.
+
+
+
+
+TRABAJO DE FORMA AUTÓNOMA.
+
+Realiza las modificaciones necesarias para que en el listado podamos filtrar por
+alguno de los campos.

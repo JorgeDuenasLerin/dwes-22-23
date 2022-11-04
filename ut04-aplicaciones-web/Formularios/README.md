@@ -1,5 +1,5 @@
 # PHP-form-teaching
-Repositorio con cosas para enseñar cómo se procesan formularios
+Cómo se procesan formularios
 
 
 ## Elementos
