@@ -1,0 +1,29 @@
+Horas: 27
+
+Desarrollo de aplicaciones web utilizando código embebido
+— Mantenimiento del estado.
+— Seguridad: usuarios, perfiles, roles.
+— Autentificación de usuarios. OpenID, OAuth.
+— Acceso al servicio directorio LDAP (Lightweight Directory Access Protocol).
+— Control de sesiones.
+— Pruebas y depuración.
+
+Distribución de contenido en temas
+.- Tecnología básica
+.-- HTTP procolo sin estado
+.-- Cookies
+.-- Sesiones
+.- Elementos básicos de Seguridad
+.-- Autentificación vs autorización
+.-- Cifrado y clave pública/secreta
+.- Autentificación en distintos niveles
+.-- SSH
+.-- Apache
+.-- Aplicación
+.-- Externas (otro tema)
+.- Autentificación con entidades externas
+.-- OAuth
+.-- OpenID
+.-- Twitter
+.-- Integración con LDAP
+.- Instalación de depuración
