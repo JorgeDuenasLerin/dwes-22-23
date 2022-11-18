@@ -16,6 +16,12 @@ Contenidos
 PDO
 [https://diego.com.es/tutorial-de-pdo](https://diego.com.es/tutorial-de-pdo)
 
+## Clase de ayuda
+
+
+[PHP-Acceso-a-datos](https://github.com/JorgeDuenasLerin/PHP-Acceso-a-datos)
+
+
 ## Consultas preparadas
 
 Fuente
