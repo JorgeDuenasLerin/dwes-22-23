@@ -7,26 +7,28 @@ Temario DWES
 
 - Enero
   - Semana 9-13
-    - Foro
+    - Foro - clásico
     - Procesado ficheros en formularios
+      - [Ficheros](https://www.w3schools.com/php/php_file_upload.asp)
       - Subir imágenes
-    - Estructura proyecto web
     - Modelo Vista Controlador
-        - url y controladores
+      - [MVC](https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93controlador)
+      - [Curso 6h](https://www.youtube.com/watch?v=6ERdu4k62wI&ab_channel=freeCodeCamp.org)
+      - Url y controladores
+        - Primeros 32 minutos del vídeo
   - Semana 16-20
     - Modelo Vista Controlador
-        - url y templates
+      - Url y templates
     - Modelo Vista Controlador
-        - Consultas
-    - Modelo Vista Controlador
+      - Consultas y Modelos
   - Semana 23-27
+    - [python](https://es.slideshare.net/fraann/python-3542102)
     - python/Django
       - ORM
       - Administración
       - Formularios
 - Febrero
   - Semana 30-3
-    - [python](https://es.slideshare.net/fraann/python-3542102)
     - python/Django
       - Proyecto
       - Templates
