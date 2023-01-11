@@ -27,11 +27,15 @@ if(isset($_POST["submit"])) {
         $password = clean_input($_POST["password"]);
     }
 
-    $us=$_POST['usuario'];
-    $pass=$_POST['pass'];
     // $sql="SELECT * FROM usuarios WHERE user = ? AND password=?";
+    // Consulta preparada!
+    // Traed registro de usuario con ese email
+    // Haced un hash de la contraseña
+    // Comparad hash con hash
 
     if( $login == "asd@asd.es" && $password == "1234" ){
+        // Bonus: Semos pogramadores güenos. 
+        // Haced un reenvío a la página privada que quería visitar.
         header('Location: premio.php');
         exit;
     }else{
