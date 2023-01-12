@@ -8,10 +8,10 @@ Temario DWES
 - Enero
   - Semana 9-13
     - Foro - clásico
-      - [Recuérdame](./gpt-explicaciones/Implementar%20opci%C3%B3n%20recu%C3%A9rdame%20en%20formulario%20login%20web.pdf)
+      - [Recuérdame](./gpt-explicaciones/Recu%C3%A9rdame%20en%20login.pdf)
     - Procesado ficheros en formularios
       - [Ficheros](https://www.w3schools.com/php/php_file_upload.asp)
-      - Subir imágenes
+      - [Subir imágenes](./gpt-explicaciones/Subir%20Imagen%20Perfil%20Web.pdf)
     - Modelo Vista Controlador
       - [MVC](https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93controlador)
       - [Curso 6h](https://www.youtube.com/watch?v=6ERdu4k62wI&ab_channel=freeCodeCamp.org)
