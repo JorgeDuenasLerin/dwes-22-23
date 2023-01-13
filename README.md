@@ -12,12 +12,13 @@ Temario DWES
     - Procesado ficheros en formularios
       - [Ficheros](https://www.w3schools.com/php/php_file_upload.asp)
       - [Subir imágenes](./gpt-explicaciones/Subir%20Imagen%20Perfil%20Web.pdf)
+    - Terminar aplicación con estructura de proyecto
+  - Semana 16-20
     - Modelo Vista Controlador
       - [MVC](https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93controlador)
       - [Curso 6h](https://www.youtube.com/watch?v=6ERdu4k62wI&ab_channel=freeCodeCamp.org)
       - Url y controladores
         - Primeros 32 minutos del vídeo
-  - Semana 16-20
     - Modelo Vista Controlador
       - Url y templates
     - Modelo Vista Controlador
