@@ -25,6 +25,7 @@ Temario DWES
       - Consultas y Modelos
   - Semana 23-27
     - [python](https://es.slideshare.net/fraann/python-3542102)
+    - [Ejercicios](https://www.mclibre.org/consultar/python/index.html)
     - python/Django
       - ORM
       - Administración
