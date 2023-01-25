@@ -27,6 +27,7 @@ Temario DWES
     - [Python](https://es.slideshare.net/fraann/python-3542102)
     - [Ejercicios](https://www.mclibre.org/consultar/python/index.html)
     - [Chuleta](https://github.com/gto76/python-cheatsheet)
+    - [Libros](https://github.com/midudev/libros-programacion-gratis/blob/main/README.md#-python)
     - python/Django
       - ORM
       - Administración
