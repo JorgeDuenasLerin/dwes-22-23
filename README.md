@@ -24,8 +24,9 @@ Temario DWES
     - Modelo Vista Controlador
       - Consultas y Modelos
   - Semana 23-27
-    - [python](https://es.slideshare.net/fraann/python-3542102)
+    - [Python](https://es.slideshare.net/fraann/python-3542102)
     - [Ejercicios](https://www.mclibre.org/consultar/python/index.html)
+    - [Chuleta](https://github.com/gto76/python-cheatsheet)
     - python/Django
       - ORM
       - Administración
