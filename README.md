@@ -28,6 +28,7 @@ Temario DWES
     - [Ejercicios](https://www.mclibre.org/consultar/python/index.html)
     - [Chuleta](https://github.com/gto76/python-cheatsheet)
     - [Libros](https://github.com/midudev/libros-programacion-gratis/blob/main/README.md#-python)
+    - [Avanzado](https://sadegh-khan.ir/wp-content/uploads/2021/07/Daniel-Feldroy-Audrey-Feldroy-Two-Scoops-of-Django-3.x_-Best-Practices-for-the-Django-Web-Framework-2017-Two-Scoops-Presssadegh-khan-ir.pdf)
     - python/Django
       - ORM
       - Administración
