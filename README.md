@@ -48,3 +48,12 @@ Temario DWES
   - Semana 20-24
     - python/Django
       - repaso
+
+
+## Autentificación
+
+Autentificación
+[https://learndjango.com/tutorials/django-login-and-logout-tutorial#disqus_thread](https://learndjango.com/tutorials/django-login-and-logout-tutorial#disqus_thread)
+
+Formularios
+[https://docs.djangoproject.com/en/4.1/topics/forms/](https://docs.djangoproject.com/en/4.1/topics/forms/)
