@@ -29,8 +29,6 @@ El formulario pedirá:
 
 Al pulsar el botón enviar se enviará la información a otra página.
 
-Esta página usará la librería ```http://www.fpdf.org/``` Para generar una carta de presentación con un texto (Puedes buscar el texto en Internet).
-
 El objetivo es utlizar las distintas concatenaciones de cadenas.
 
 - Cadenas con comillas simples
@@ -38,6 +36,10 @@ El objetivo es utlizar las distintas concatenaciones de cadenas.
 - Cadenas dentro de cadenas
 - Cadenas con variables dentro
 - Cadenas concatenadas con cadenas y/o variables
+
+Bonus CSS
+
+Esta página usará la librería ```http://www.fpdf.org/``` Para generar una carta de presentación con un texto (Puedes buscar el texto en Internet).
 
 ## Ejercicio arrays 03
 
